@@ -1,0 +1,37 @@
+#home {
+  display: flex;
+  height: 100vh;
+
+  hr {
+    height: 0;
+    border: 0.1px solid gray;
+  }
+  .homeContainer {
+    padding: 10px;
+    flex: 6;
+
+    .cardsData {
+      display: flex;
+      padding: 20px 0px;
+      gap: 20px;
+    }
+    .charts-bar{
+        display: flex;
+        padding: 20px 0%;
+        width: 100%; 
+       justify-content: space-around;
+    }
+    .home-table{
+      margin-bottom: 10%;
+      p{
+        font-weight: 700;
+        font-size: 1.2rem;
+        color: gray;
+        font-family: 'Courier New', Courier, monospace;
+        text-align: center;
+      }
+
+    }
+  }
+
+}

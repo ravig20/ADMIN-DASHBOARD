@@ -1,0 +1,70 @@
+.ProcessBar {
+  width: 35%;
+  padding: 8px;
+  -webkit-box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.47);
+  box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+  border-radius: 5px;
+  .ProcessBar-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: gray;
+    h1 {
+      font-size: 15px;
+      font-weight: 700;
+    }
+  }
+  .ProcessBar-center{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: gray;
+    .CircularProgressbar{
+        width: 150px;
+        height: 150px;
+    }
+    h1{
+        font-size: larger;
+        margin: 1%;
+    }
+    h2{
+        font-size: larger;
+        margin: 5px;
+    }
+    h4{
+        font-size: small;
+        margin: 5px;
+    }
+    
+  }
+  .ProcessBar-bottom {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    h3 {
+      font-size: 0.8rem;
+      font-weight: revert;
+      margin-bottom: 4px;
+      color: gray;
+    }
+    .ProcessBar-bottom-icon {
+      display: flex;
+      align-items: center;
+      // margin-top: 0;
+      &.positive {
+        color: rgb(40, 178, 40);
+      }
+      &.negative {
+        color: rgb(142, 25, 27);
+      }
+      font-weight: 700;
+      p {
+        // padding: 0%;
+        margin: 0%;
+      }
+    }
+  }
+
+}
